@@ -8,6 +8,7 @@
 
 ``` bash
 # serve with hot reload at localhost:8010
+npm i
 npm run dev
 ```
 
@@ -15,5 +16,6 @@ npm run dev
 
 ``` bash
 # build for production with minification
+npm i
 npm run build
 ```

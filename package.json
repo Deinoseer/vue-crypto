@@ -1,0 +1,38 @@
+{
+  "name": "vue-crypto",
+  "description": "get crypto currencies",
+  "author": "deinos097@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --env.dev",
+    "build": "rimraf dist && webpack -p --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "element-ui": "2.4.0",
+    "lodash": "^4.17.15",
+    "vue": "^2.6.10"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-vue-app": "^1.2.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.24.1",
+    "postcss-loader": "^3.0.0",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^6.0.0",
+    "node-sass": "^4.12.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

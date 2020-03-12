@@ -1,5 +1,11 @@
 # vue-crypto
 
+![Demo Image](demo.jpg)
+
+Vue.js
+
+Automaticaly updated crypto currencies list with inifite scroll
+
 ## Environment
 
 `Node >= 6`
